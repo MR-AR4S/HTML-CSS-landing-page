@@ -87,3 +87,96 @@ nav ul li a {
   width: 550px;
   aspect-ratio: 16 / 9;
 }
+
+.container {
+  margin-top: 50px;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+}
+
+.pic-holders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 25px ;
+}
+
+.pic-holders img {
+  width: 120px;
+  aspect-ratio: 1;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.pic-holders p {
+  margin-top: 8px;
+  color: #5c5d5f;
+}
+
+.quotes {
+  background-color: #e7e8eb;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 400px;
+}
+
+.quotes .quote {
+  font-size: 28px;
+  font-style: italic;
+  color: #5c5d5f;
+}
+
+.quotes .writer {
+  text-align: right;
+  font-weight: bold;
+  padding-right: 25px;
+  color: #1f2937;
+}
+
+.sign-up-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3882f6;
+  margin: 50px 300px;
+  padding: 30px 50px;
+  border-radius: 10px;
+}
+
+.sign-up-container h3 {
+  color: #f9faf8;
+}
+
+.sign-up-container p {
+  color: #c8c9ca;
+}
+
+.sign-up-container button {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 5px 25px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 30px;
+}
+
+footer p {
+  color: #f9faf8;
+  font-size: 15px;
+}
