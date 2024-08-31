@@ -41,4 +41,54 @@
   .img-placeholder img {
     width: 350px;
   }
+
+  .container {
+    margin-top: 30px;
+  }
+
+  .container h1 {
+    font-size: 26px;
+  }
+
+  .pic-holders {
+    margin: 40px 20px;
+  }
+
+  .pic-holders img {
+    width: 80px;
+    border: 2px solid #3882f6;
+  }
+
+  .pic-holders p {
+    font-size: 14px;
+  }
+
+  .quotes {
+    padding: 50px;
+  }
+
+  .quotes .quote {
+    font-size: 15px;
+  }
+
+  .quotes .writer {
+    font-size: 13px;
+  }
+
+  .sign-up-container {
+    margin: 50px;
+  }
+
+  .sign-up-container h3 {
+    font-size: 17px;
+  }
+
+  .sign-up-container p {
+    font-size: 14px;
+  }
+
+  .sign-up-container button {
+    font-size: 13px;
+    border: 1px solid #fff ;
+  }
 }
