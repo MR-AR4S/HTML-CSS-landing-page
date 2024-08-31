@@ -1,0 +1,104 @@
+/* tablet display */
+@media((min-width: 320px) and (max-width: 600px)) {
+  nav .logo {
+    margin-left: 8px;
+    font-size: 16px;
+  }
+
+  nav ul {
+    margin-right: 80px;
+  }
+
+  nav ul li {
+    padding-left: 8px;
+  }
+
+  nav ul li a {
+    font-size: 12px;
+  }
+
+  .header-text-box {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+
+  .headers-text {
+    margin-left: 35px;
+  }
+
+  .headers-text h1 {
+    font-size: 16px;
+  }
+
+  .headers-text p {
+    font-size: 12px;
+  }
+
+  .headers-text button {
+    font-size: 10px;
+  }
+
+  .img-placeholder {
+    margin-top: 10px;
+  }
+
+  .img-placeholder img {
+    width: 300px;
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+
+  .container h1 {
+    font-size: 16px;
+  }
+
+  .pic-holders {
+    margin: 10px 8px;
+  }
+
+  .pic-holders img {
+    width: 50px;
+    border: 1px solid #3882f6;
+  }
+
+  .pic-holders p {
+    font-size: 10px;
+  }
+
+  .quotes {
+    padding: 20px;
+    margin-top: 10px;
+  }
+
+  .quotes .quote {
+    font-size: 12px;
+  }
+
+  .quotes .writer {
+    font-size: 10px;
+  }
+
+  .sign-up-container {
+    margin: 10px;
+    padding: 8px;
+  }
+
+  .sign-up-container h3 {
+    font-size: 14px;
+  }
+
+  .sign-up-container p {
+    font-size: 10px;
+  }
+
+  .sign-up-container button {
+    font-size: 10px;
+    border: 1px solid #fff ;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+}
